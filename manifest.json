@@ -1,0 +1,9 @@
+{
+	"manifest_version": 2,
+	"name": "seneca-reveal",
+	"version": "1.0",
+	"content_scripts": [{
+		"matches": ["https://app.senecalearning.com/classroom/course/*/section/*/session"],
+		"css": ["reveal.css"]
+	}]
+}
